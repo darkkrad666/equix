@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  command = ""
+
+[dev]
+  command = ""
+  targetPort = 8000
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

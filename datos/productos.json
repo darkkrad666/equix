@@ -1,0 +1,232 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "categoria": "polarizado",
+      "nombre": "Polarizado Premium",
+      "descripcion": "Pelicula de seguridad y privacidad de grado automotive",
+      "precio": 150,
+      "precioAnterior": 200,
+      "promocion": true,
+      "duracion": "5 anos garantia"
+    },
+    {
+      "id": 2,
+      "categoria": "polarizado",
+      "nombre": "Polarizado de Seguridad",
+      "descripcion": "Proteccion anti-asalto con tecnologia antis fracture",
+      "precio": 250,
+      "precioAnterior": 300,
+      "promocion": true,
+      "duracion": "Garantia lifetime"
+    },
+    {
+      "id": 3,
+      "categoria": "polarizado",
+      "nombre": "Polarizado Cristal Limpio",
+      "descripcion": "99% claridad optica, anti-UV",
+      "precio": 120,
+      "precioAnterior": 150,
+      "promocion": false,
+      "duracion": "3 anos"
+    },
+    {
+      "id": 4,
+      "categoria": "electrico",
+      "nombre": "Instalacion Electrica Completa",
+      "descripcion": "Sistema electrico completo con Relay y cables profesionales",
+      "precio": 350,
+      "precioAnterior": 450,
+      "promocion": true,
+      "incluye": "Mano de obra y materiales"
+    },
+    {
+      "id": 5,
+      "categoria": "electrico",
+      "nombre": "Bateria Auxiliar",
+      "descripcion": "Segunda bateria para equipos electricos",
+      "precio": 280,
+      "precioAnterior": 350,
+      "promocion": true,
+      "garantia": "2 anos"
+    },
+    {
+      "id": 6,
+      "categoria": "electrico",
+      "nombre": "Inverter 1000W",
+      "descripcion": "Convertidor de corriente puro seno",
+      "precio": 180,
+      "precioAnterior": 220,
+      "promocion": false,
+      "garantia": "1 ano"
+    },
+    {
+      "id": 7,
+      "categoria": "audio",
+      "nombre": "Radio Pioneer DMH-J600",
+      "descripcion": "Radio multimedia con Bluetooth, USB, screen 7 pulg",
+      "precio": 420,
+      "precioAnterior": 500,
+      "promocion": true
+    },
+    {
+      "id": 8,
+      "categoria": "audio",
+      "nombre": "Radio Sony XAV-AX5000",
+      "descripcion": "Radio WebLink, Apple CarPlay, Android Auto",
+      "precio": 550,
+      "precioAnterior": 650,
+      "promocion": true
+    },
+    {
+      "id": 9,
+      "categoria": "audio",
+      "nombre": "Sistema 6x9 Premium",
+      "descripcion": "Pioneer TS-A6990F 6x9 550W",
+      "precio": 280,
+      "precioAnterior": 350,
+      "promocion": true
+    },
+    {
+      "id": 10,
+      "categoria": "audio",
+      "nombre": "Subwoofer 12 pulg JBL",
+      "descripcion": "BassTube JBL GT-12BP 1000W",
+      "precio": 320,
+      "precioAnterior": 400,
+      "promocion": true
+    },
+    {
+      "id": 11,
+      "categoria": "seguridad",
+      "nombre": "Alarma con Remote Start",
+      "descripcion": "Alarma con inicio remoto y sensores",
+      "precio": 380,
+      "precioAnterior": 480,
+      "promocion": true
+    },
+    {
+      "id": 12,
+      "categoria": "seguridad",
+      "nombre": "Alarma GPS Inteli",
+      "descripcion": "Rastreo satelital en tiempo real",
+      "precio": 450,
+      "precioAnterior": 550,
+      "promocion": true
+    },
+    {
+      "id": 13,
+      "categoria": "seguridad",
+      "nombre": "Inmovilizador Electronico",
+      "descripcion": "Bloqueo de motor por app",
+      "precio": 280,
+      "precioAnterior": 350,
+      "promocion": true
+    },
+    {
+      "id": 14,
+      "categoria": "buscahuellas",
+      "nombre": "Buscahuellas GPS Basic",
+      "descripcion": "Rastreo GPS en tiempo real via app",
+      "precio": 150,
+      "precioAnterior": 200,
+      "promocion": true
+    },
+    {
+      "id": 15,
+      "categoria": "buscahuellas",
+      "nombre": "Buscahuellas Pro 4G",
+      "descripcion": "Rastreo 4G LTE, bateria 90 dias",
+      "precio": 280,
+      "precioAnterior": 380,
+      "promocion": true
+    },
+    {
+      "id": 16,
+      "categoria": "buscahuellas",
+      "nombre": "OBD Buscahuellas",
+      "descripcion": "Conecta al OBD, sin instalacion",
+      "precio": 180,
+      "precioAnterior": 250,
+      "promocion": false
+    },
+    {
+      "id": 17,
+      "categoria": "led",
+      "nombre": "Barras LED 50 pulg",
+      "descripcion": "Barra 50 pulg 300W 60000 lumens",
+      "precio": 280,
+      "precioAnterior": 380,
+      "promocion": true
+    },
+    {
+      "id": 18,
+      "categoria": "led",
+      "nombre": "Kit LED Faros",
+      "descripcion": "Conversion LED H4, H7, HB3",
+      "precio": 180,
+      "precioAnterior": 250,
+      "promocion": true
+    },
+    {
+      "id": 19,
+      "categoria": "led",
+      "nombre": "Ribbon LED RGB",
+      "descripcion": "Tira LED RGB control app",
+      "precio": 80,
+      "precioAnterior": 120,
+      "promocion": true
+    },
+    {
+      "id": 20,
+      "categoria": "led",
+      "nombre": "Drl LED Xenon White",
+      "descripcion": " daylight running lights",
+      "precio": 120,
+      "precioAnterior": 180,
+      "promocion": false
+    }
+  ],
+  "promociones": [
+    {"titulo": "Pack Completo Seguridad", "descripcion": "Alarma + GPS + Inmovilizador", "descuento": "25%", "valido": "2026-12-31"},
+    {"titulo": "Audio Premium", "descripcion": "Radio + Subwoofer + Instalacion", "descuento": "20%", "valido": "2026-06-30"},
+    {"titulo": "LED Night Pack", "descripcion": "Barras LED + Ribbon RGB", "descuento": "30%", "valido": "2026-05-31"}
+  ],
+  "servicios": [
+    {"nombre": "Instalacion Polarizado", "precio": 80, "tiempo": "2-4 horas"},
+    {"nombre": "Instalacion Audio", "precio": 100, "tiempo": "4-6 horas"},
+    {"nombre": "Instalacion Alarma", "precio": 120, "tiempo": "3-5 horas"},
+    {"nombre": "Instalacion GPS", "precio": 60, "tiempo": "1-2 horas"},
+    {"nombre": "Instalacion Electrica", "precio": 150, "tiempo": "6-8 horas"},
+    {"nombre": "Cambio de Bateria", "precio": 50, "tiempo": "30 min"}
+  ],
+  "faq": [
+    {"pregunta": "Cuanto dura el polarizado?", "respuesta": "El polarizado premium tiene garantia de 5 anos y dura hasta 10 anos con cuidado adecuado."},
+    {"pregunta": "El GPS tiene mensualidad?", "respuesta": "No, nuestros GPS no tienen mensualidad. Solo pagas una vez y la app es gratuita."},
+    {"pregunta": "Hacen garantias?", "respuesta": "Si, todos nuestros productos tienen garantia del fabricante y nosotros damos garantia adicional de instalacion."},
+    {"pregunta": "Cuanto tiempo dura la instalacion?", "respuesta": "Depende del servicio: polarizado 2-4 horas, alarma 3-5 horas, sistema de audio 4-6 horas."},
+    {"pregunta": "Aceptan pagos?", "respuesta": "Aceptamos efectivo, tarjetas de credito/debito, transferencia y MercadoPago."},
+    {"pregunta": "Dan factura?", "respuesta": "Si, emitimos factura legal con garantia."}
+  ],
+  "chatbot": {
+    "saludo": "Hola! Bienvenido a Accesorios Auto Pro. Como puedo ayudarte hoy?",
+    "despedida": "Gracias por contactarnos! Visitanos pronto para ver nuestros productos.",
+    "respuestasDefault": {
+      "precios": "Tenemos precios competitivos! Puedo mostrarte productos de una categoria especifica?",
+      "promociones": "Tenemos promociones activas del 20-30% en varios productos. Cual categoria te interesa?",
+      "Garantia": "Todos nuestros productos tienen garantia del fabricante. Cuanto dura la garantia que te interesa?",
+      "Default": "Entiendo tu consulta. Para ayudarte mejor, dime que producto o servicio buscas?"
+    },
+    "palabrasClave": {
+      "polarizado": ["polarizado", "polarizado", "pelicula", "vidrio", "techo"],
+      "precios": ["precio", "cuesta", "vale", "costo", "cuanto"],
+      "promociones": ["promocion", "descuento", "oferta", "sale", " barato"],
+      "alarmas": ["alarma", "seguridad", "robo", "proteger"],
+      "gps": ["gps", "rastreo", "ubicacion", "donde"],
+      "audio": ["radio", "musica", "audio", "parlantes", "bocinas"],
+      "led": ["led", "luces", "barras", "iluminacion"],
+      "instalacion": ["instalar", "instalacion", "poner", "montar"],
+      "garantia": ["garantia", " garantia", "asegurado", "cubierto"]
+    }
+  }
+}
